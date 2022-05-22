@@ -1,3 +1,7 @@
+if game.CoreGui:FindFirstChild("ui") then
+    game.CoreGui.ui:Destroy()
+end
+
 local lib = {RainbowColorValue = 0, HueSelectionPosition = 0}
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
